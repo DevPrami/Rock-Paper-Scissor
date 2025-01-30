@@ -55,7 +55,12 @@ h1{
    display: inline;
    padding: 1rem;
    border-radius: 2rem;
-
-
-
+}
+@media screen and (max-width:767px){
+    .choices {
+    
+    gap: 0rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
 }
